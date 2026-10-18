@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ശിവനടനം | നൃത്തവിദ്യാലയം</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#fff8ed;color:#391725;font-family:Arial,sans-serif;line-height:1.8}
+header{background:#400d20;color:#e6c477;padding:20px;text-align:center}
+header h1{margin:0;font-size:35px}
+nav a{color:white;margin:8px;text-decoration:none;font-size:14px}
+.hero{text-align:center;padding:70px 15px;background:linear-gradient(145deg,#76283f,#220510);color:white}
+.hero h2{font-size:30px;color:#e6c477}
+.btn{display:inline-block;background:#e6c477;color:#400d20;padding:12px 20px;margin:8px;border-radius:5px;text-decoration:none;font-weight:bold}
+section{padding:40px 20px;text-align:center}
+h2{color:#782441}
+.cards{display:flex;flex-wrap:wrap;gap:15px;justify-content:center}
+.card{background:white;border:1px solid #e6c477;border-radius:10px;padding:20px;flex:1 1 200px;max-width:300px}
+.fee{background:#400d20;color:white}
+.fee h2,.fee h3{color:#e6c477}
+.price{font-size:45px;color:#e6c477}
+input,select,textarea{width:100%;padding:12px;margin:6px 0 15px;border:1px solid #cbb58f;border-radius:5px;font-size:16px}
+form{max-width:450px;margin:auto;text-align:left}
+button{width:100%;padding:14px;background:#400d20;color:#e6c477;border:0;border-radius:5px;font-size:16px}
+footer{background:#220510;color:white;text-align:center;padding:20px}
+</style>
+</head>
+<body>
+<header>
+<h1>🪷 ശിവനടനം 🪷</h1>
+<p>ഭാരതനാട്യം നൃത്തവിദ്യാലയം</p>
+<nav>
+<a href="#about">ഞങ്ങളെക്കുറിച്ച്</a>
+<a href="#classes">ക്ലാസുകൾ</a>
+<a href="#admission">അഡ്മിഷൻ</a>
+</nav>
+</header>
+
+<div class="hero">
+<h2>നൃത്തത്തിന്റെ മനോഹരമായ ലോകത്തേക്ക് സ്വാഗതം</h2>
+<p>പാരമ്പര്യം • കല • സമർപ്പണം</p>
+<p>ആൺകുട്ടികൾക്കും പെൺകുട്ടികൾക്കും നൃത്തപഠനത്തിന് അവസരം</p>
+<a class="btn" href="#admission">അഡ്മിഷൻ വിവരങ്ങൾ</a>
+<a class="btn" href="https://wa.me/919746987655">WhatsApp</a>
+</div>
+
+<section id="about">
+<h2>ഞങ്ങളെക്കുറിച്ച്</h2>
+<p>ഭാരതനാട്യത്തിന്റെ പാരമ്പര്യവും സൗന്ദര്യവും പഠിക്കാം. നൃത്തം പഠിക്കാൻ താൽപര്യമുള്ള എല്ലാവർക്കും ശിവനടനത്തിലേക്ക് സ്വാഗതം.</p>
+</section>
+
+<section id="classes">
+<h2>ഞങ്ങളുടെ ക്ലാസുകൾ</h2>
+<div class="cards">
+<div class="card"><h3>💻 ഓൺലൈൻ ക്ലാസുകൾ</h3><p>വീട്ടിലിരുന്ന് നൃത്തം പഠിക്കാം.</p></div>
+<div class="card"><h3>🩰 ഓഫ്‌ലൈൻ ക്ലാസുകൾ</h3><p>നേരിട്ടുള്ള നൃത്തപരിശീലനം.</p></div>
+<div class="card"><h3>🌸 എല്ലാവർക്കും സ്വാഗതം</h3><p>കൂടുതൽ വിവരങ്ങൾക്ക് ബന്ധപ്പെടുക.</p></div>
+</div>
+</section>
+
+<section class="fee">
+<h2>ക്ലാസ് ഫീസ്</h2>
+<div class="price">₹600</div>
+<p>ഫീസിന്റെ കാലാവധി അറിയാൻ ബന്ധപ്പെടുക.</p>
+</section>
+
+<section id="admission">
+<h2>അഡ്മിഷൻ അന്വേഷണം</h2>
+<p>വിവരങ്ങൾ പൂരിപ്പിച്ച് WhatsApp വഴി അയയ്ക്കുക.</p>
+<form id="form">
+<label>വിദ്യാർത്ഥിയുടെ പേര്</label>
+<input id="student" required placeholder="പേര്">
+<label>പ്രായം</label>
+<input id="age" type="number" min="1" max="100" required placeholder="പ്രായം">
+<label>ക്ലാസ് രീതി</label>
+<select id="mode" required>
+<option value="">തിരഞ്ഞെടുക്കുക</option>
+<option>ഓൺലൈൻ</option>
+<option>ഓഫ്‌ലൈൻ</option>
+</select>
+<label>ഫോൺ നമ്പർ</label>
+<input id="phone" type="tel" required placeholder="ഫോൺ നമ്പർ">
+<button type="submit">WhatsApp വഴി അയയ്ക്കുക</button>
+</form>
+</section>
+
+<section>
+<h2>ബന്ധപ്പെടുക</h2>
+<p>📱 <a href="https://wa.me/919746987655">9746987655 — WhatsApp</a></p>
+<p>✉️ <a href="mailto:shivanadanam75@gmail.com">shivanadanam75@gmail.com</a></p>
+</section>
+
+<footer>
+<p>🪷 ശിവനടനം ഭാരതനാട്യം നൃത്തവിദ്യാലയം 🪷</p>
+</footer>
+
+<script>
+document.getElementById("form").addEventListener("submit",function(e){
+e.preventDefault();
+let msg="Shivanadanam Admission Enquiry\n"+
+"Name: "+document.getElementById("student").value+"\n"+
+"Age: "+document.getElementById("age").value+"\n"+
+"Class: "+document.getElementById("mode").value+"\n"+
+"Phone: "+document.getElementById("phone").value;
+window.open("https://wa.me/919746987655?text="+encodeURIComponent(msg),"_blank");
+});
+</script>
+</body>
+</html>
